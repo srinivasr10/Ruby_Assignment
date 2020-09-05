@@ -1,0 +1,4 @@
+this is stuff I typed into a file.
+Its is really cool stuff.
+Lots and lots of fun to have it here.
+close()
