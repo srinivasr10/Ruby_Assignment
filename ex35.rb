@@ -54,7 +54,7 @@ def bear_room
     puts "Do you flee for your life or eat your head?"
 
     print ">"
-    choice = $std.in.gets.chomp
+    choice = $stdin.gets.chomp
 
     if choice.include? "flee"
       start
@@ -81,7 +81,7 @@ def bear_room
    if choice == "left"
      bear_room
   elsif choice == "right"
-    chthulhu_room
+    cthulhu_room
   else
     dead("You stumble around the room until you starve.")
   end
